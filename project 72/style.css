@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.row{
+	height: 100vh;
+	width: 100%;
+	display: inline-flex;
+}
+.col-md-4{
+	height: 100vh;
+	width: 30%;
+}
+h2{
+	margin-left: 50px;
+	margin-top: 40px;
+	color: blue;
+}
+h6{
+	margin-left: 130px;
+	color: blue;
+}
+.mad li{
+	list-style: none;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.mad a{
+	text-decoration: none;
+	color: blue;
+	font-size: 13px;
+}
+.para{
+	margin-left: 50px;
+	margin-top: 5px;
+	font-size: 13px;
+}
+.head{
+	height: 73vh;
+	width: 100%;
+	margin-top: 20px;
+	background: #3895D3;
+}
+h3{
+	margin-left: 50px;
+	padding-top: 20px;
+	color: #000080;
+}
+p{
+	margin-left: 50px;
+	margin-top: 5px;
+	color: #fff;
+}
+h5{
+	float: right;
+	color: #fff;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+#header{
+	height: 100vh;
+	width: 45%;
+	border-right: 8px solid #000080;
+}
+.man li{
+	list-style: none;
+	display: flex;
+	margin-top: 20px;
+	margin-left: 80px;
+}
+.man a{
+	opacity: 0.6;
+	text-decoration: none;
+}
+.line{
+	border-bottom: 1px solid blue;
+	margin-top: 32px;
+}
+h1{
+	margin-left: 50px;
+	margin-top: 40px;
+	color: #000080;
+}
+h1 span{
+	font-size: 20px;
+	margin-left: 120px;
+}
+.para1{
+	margin-top: 20px;
+	margin-left: 50px;
+	color: #000080;
+	opacity: 0.6;
+}
+.para2{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 13px;
+	color: #000080;
+	opacity: 0.6;
+}
+#last{
+	height: 100vh;
+	width: 35%;
+}
+.footer img{
+	margin-top: 300px;
+	height: 25vh;
+	width: 60%;
+}
+h4{
+	margin-left: 20px;
+	margin-top: 30px;
+	color: #000080;
+	opacity: 0.6;
+}
+
+
+
+@media(max-width: 700px){
+h2{
+	margin-left: 10px;
+}
+h6{
+	margin-left: 60px;
+}
+.mad li{
+	margin-left: 10px;
+}
+.para{
+	margin-left: 10px;
+}
+.head{
+	height: 180vh;
+	background: #3895D3;
+}
+h3{
+	margin-left: 20px;
+	padding-top: 20px;
+	color: #000080;
+}
+p{
+	margin-left: 10px;
+	margin-top: 10px;
+	color: #fff;
+}
+h5{
+	float: right;
+	color: #fff;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+#header{
+	height: 160vh;
+	border-right: 8px solid #000080;
+}
+.man li{
+	margin-left: 40px;
+}
+h1{
+	margin-left: 20px;
+}
+h1 span{
+	margin-left: 50px;
+}
+.para1{
+	margin-left: 20px;
+}
+.footer img{
+	width: 90%;
+}
+h4{
+	margin-left: 10px;
+}
+}
